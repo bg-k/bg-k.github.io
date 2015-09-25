@@ -1,0 +1,27 @@
+h3 {
+	text-align: center;
+	border: 1px solid red;
+	position: relative;
+	top: 100px;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.gallery {
+	width: 100%;
+	margin: 35px auto 0;
+	padding: 0;
+	text-align: center;
+/*	border: 1px solid red;*/
+}
+
+.pics {
+	display: inline-block;
+	margin: 40px 30px;
+}
+
+.pics img{
+	width: 320px;
+	height: 180px;
+}
+

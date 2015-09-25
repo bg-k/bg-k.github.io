@@ -1,0 +1,23 @@
+.note {
+	/*border: 1px solid red;*/
+	height: 580px;
+}
+
+#top {
+	font-size: 3.6em;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 50px;
+	/*border: 1px solid blue;*/
+}
+
+.description {
+	letter-spacing: 0;
+	line-height: 2em;
+	font-size: 1.8em;
+	word-break: break-word;
+	/*border: 1px solid green;*/
+	margin: 30px auto 0;
+	width: 550px;
+	height: 400px;
+}
