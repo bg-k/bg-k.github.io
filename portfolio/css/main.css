@@ -156,11 +156,6 @@ ul {
 	margin: 20px 30px;
 }
 
-.skill.js img {
-	width: 97px;
-	height: 97px;
-}
-
 
 /* WORK ----------------------------------------------------*/
 #work{
@@ -178,7 +173,7 @@ ul {
 }
 
 .work-each {
-	width: 230px;
+	width: 210px;
 	display: inline-block;
 	margin: 40px 30px 0;
 }
@@ -255,4 +250,91 @@ i {
 
 i:hover {
 	color: #aaa;
+}
+
+
+
+/* Smartphones*/
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+	#top-img {
+		height: 100vh;
+	}
+
+	.head {
+		position: static;
+		height: 0;
+	}
+
+	.menu-item {
+		display: none;
+	}
+
+
+/* ABOUT ----------------------------------------------------*/
+	#about {
+		height: 830px;
+	}
+
+	.lead-title {
+		font-size: 2.7rem;
+	}
+
+	.about-box {
+		width: 100%;
+	}
+
+	.about-description {
+		font-size: 1.5rem;
+		width: 80%;
+		padding: 0 10%;
+	}
+
+	.profile-img {
+		width: 180px;
+		height: 180px;
+		display: block;
+		margin: 40px auto 20px;
+		float: none;
+	}
+
+	.about-description {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.about-description h3 {
+		font-size: 3.0rem;
+		width: 200px;
+		margin: 0 auto 15px;
+	}
+
+	.skill-section {
+		margin-top: 180px;
+	}
+
+	.skill-list {
+		padding-left: 0;
+	}
+
+	.skill img {
+		width: 60px;
+		height: 60px;
+		margin: 20px 20px 0;
+	}
+
+
+/* WORK ----------------------------------------------------*/
+	#work {
+		height: 1500px;
+	}
+
+	.work-menu {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 320px){ 
+	#top-img {
+		height: 460px;
+	}
 }
