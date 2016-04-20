@@ -18,10 +18,6 @@ ul {
 	list-style: none;
 }
 
-.sns {
-	color: #232323;
-}
-
 .wrapper {
 	background-color: #f4f4f4;
 	position: absolute;
@@ -51,6 +47,10 @@ ul {
 	color: #0f3ad5
 }
 
+.sns {
+	color: #232323;
+}
+
 .list {
 	font-size: 1.6rem;
 	margin-top: 18px;
@@ -66,4 +66,8 @@ ul {
 	margin: auto;
 	width: 120px;
 	height: 20px;
+}
+
+.social-icon {
+	margin-right: 0.8rem;
 }
