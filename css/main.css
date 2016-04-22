@@ -34,12 +34,11 @@ ul {
 	margin: 3%;
 }
 
-.name {
-	margin: 0;
+.head-name a {
 	color: #ff3333;
 }
 
-.bottom-name {
+.bottom-name a {
 	position: absolute;;
 	bottom: 0;
 	right: 0;
