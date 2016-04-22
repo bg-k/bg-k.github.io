@@ -70,3 +70,20 @@ ul {
 .social-icon {
 	margin-right: 0.8rem;
 }
+
+
+
+/* Smartphones*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.head-name {
+		font-size: 2.5rem;
+	}
+
+	.bottom-name {
+		font-size: 1.8rem;
+	}
+
+	.social-list {
+		padding-left: 1.0rem;
+	}
+}
