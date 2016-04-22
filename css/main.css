@@ -1,0 +1,72 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.8rem;
+	font-family: 'Lato', Arial;
+	font-weight: lighter;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #0f3ad5;
+}
+
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	background-color: #f4f4f4;
+	position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	margin: auto;
+	width: 94%;
+  height: 90%;
+}
+
+.head {
+	margin: 3%;
+}
+
+.head-name a {
+	color: #ff3333;
+}
+
+.bottom-name a {
+	position: absolute;;
+	bottom: 0;
+	right: 0;
+	margin: 3%;
+	color: #0f3ad5
+}
+
+.sns {
+	color: #232323;
+}
+
+.list {
+	font-size: 1.6rem;
+	margin-top: 18px;
+}
+
+.message {
+	font-size: 2.0rem;
+	position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	margin: auto;
+	width: 120px;
+	height: 20px;
+}
+
+.social-icon {
+	margin-right: 0.8rem;
+}
