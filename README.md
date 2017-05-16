@@ -1,7 +1,7 @@
-# penginryo.github.io
+# bg-k.github.io
 my portfolio website
 
-go to http://penginryo.github.io/portfolio/
+go to http://bg-k.github.io/portfolio/
 
 ## technology satck
 * HTML
